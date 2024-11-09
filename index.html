@@ -7,10 +7,10 @@
     <style>
         /* Estilos gerais */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f4f7fb;
             color: #333;
         }
         .container {
@@ -21,7 +21,7 @@
 
         /* Estilo para o menu */
         nav {
-            background-color: #333;
+            background-color: #0073b1; /* Azul LinkedIn */
             padding: 15px 0;
             position: sticky;
             top: 0;
@@ -38,48 +38,49 @@
             margin: 0 15px;
         }
         nav ul li a {
-            color: #fff;
+            color: white;
             text-decoration: none;
             font-weight: bold;
             padding: 10px 15px;
             border-radius: 5px;
         }
         nav ul li a:hover {
-            background-color: #0077b6;
+            background-color: #005b8c;
         }
 
-        /* Estilos para as seções */
+        /* Estilos para o cabeçalho */
         header {
             text-align: center;
             padding: 80px 0 20px 0;
-            background-color: #333;
-            color: #fff;
+            background-color: #0073b1;
+            color: white;
         }
         header h1 {
-            font-size: 2.5em;
+            font-size: 3em;
             margin-bottom: 10px;
         }
         header p {
-            font-size: 1.2em;
+            font-size: 1.5em;
             margin-top: 0;
         }
 
+        /* Estilos para as seções */
         section {
             margin-top: 60px;
             margin-bottom: 40px;
         }
 
         h2 {
-            font-size: 1.8em;
+            font-size: 2em;
             margin-top: 20px;
             color: #333;
             border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
+            padding-bottom: 10px;
         }
         .content-section {
             background: #fff;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             padding: 20px;
             margin-bottom: 20px;
         }
@@ -88,11 +89,16 @@
             list-style-type: disc;
         }
         a {
-            color: #333;
+            color: #0073b1;
             text-decoration: none;
         }
         a:hover {
-            color: #0077b6;
+            color: #005b8c;
+        }
+
+        /* Estilo para os itens de experiência e projeto */
+        .experience-item, .project-item {
+            margin-bottom: 20px;
         }
 
         /* Estilo para o rodapé */
@@ -104,6 +110,21 @@
             position: relative;
             bottom: 0;
             width: 100%;
+        }
+
+        /* Estilo para links de download */
+        .download-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0073b1;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .download-link:hover {
+            background-color: #005b8c;
         }
     </style>
 </head>
@@ -202,16 +223,15 @@
         </div>
 
         <div class="project-item">
-            <h3>Migração Tasy Delphi para Tasy Java</h3>
-            <p>Projeto de migração do sistema Tasy, com foco na implementação do CPOE e modernização contínua utilizando contêineres Docker.</p>
+            <h3>Estruturação de Datacenter e Projetos de Virtualização</h3>
+            <p>Participação ativa na construção de datacenters e virtualização de servidores, utilizando VMware e vSphere para otimizar o gerenciamento de recursos.</p>
         </div>
     </section>
 
     <section id="contato" class="content-section">
         <h2>Contato</h2>
-        <p><strong>Email:</strong> <a href="mailto:viitor.rebello@live.com">viitor.rebello@live.com</a></p>
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vitor-rebello/" target="_blank">Vitor Rebello</a></p>
-        <p><strong>Currículo:</strong> <a href="curriculo-vitor-rebello.pdf" download>Baixar Currículo</a></p>
+        <p>Se você tiver interesse em entrar em contato, enviar uma mensagem ou baixar meu currículo, clique no link abaixo:</p>
+        <a href="curriculo-vitor-rebello.pdf" class="download-link" download>Baixar Currículo</a>
     </section>
 </div>
 
