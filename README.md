@@ -1,7 +1,3 @@
-Aqui está uma versão compacta e focada do seu portfólio que inclui algumas das informações do seu currículo:
-
----
-
 # Vitor Rebello - Portfólio
 
 👋 Olá! Sou Vitor Rebello  
