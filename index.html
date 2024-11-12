@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Vitor Rebello</title>
     <style>
-               body {
+        body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@
 /* Estilo para o menu */
 nav {
     background-color: #0073b1; /* Azul LinkedIn */
-    padding: 15px 0;
+    padding: 25px 0; /* Aumenta o padding para garantir maior distância entre o conteúdo e o menu */
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -53,9 +53,10 @@ nav ul li a:hover {
 /* Estilos para o cabeçalho */
 header {
     text-align: center;
-    padding: 80px 0 20px 0;
+    padding: 100px 0 20px 0; /* Aumenta o padding para afastar mais o conteúdo do menu */
     background-color: #0073b1;
     color: white;
+    margin-top: 20px; /* Adiciona uma margem para afastar mais do topo */
 }
 header h1 {
     font-size: 3em;
@@ -68,7 +69,7 @@ header p {
 
 /* Estilos para as seções */
 section {
-    margin-top: 60px;
+    margin-top: 100px; /* Aumenta o espaçamento entre o menu e a seção */
     margin-bottom: 40px;
 }
 h2 {
@@ -83,8 +84,7 @@ h2 {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     padding: 20px;
-    margin-bottom: 30px;
-    transition: margin-top 0.3s ease;
+    margin-bottom: 20px;
 }
 ul {
     padding-left: 20px;
@@ -206,54 +206,82 @@ footer {
         </ul>
     </section>
 
-    <section id="certificacao" class="content-section">
-        <h2>Certificações</h2>
-        <div class="certification-badges">
-            <div class="certification-badge">
-    <iframe src="https://api.badgr.io/public/assertions/pXrp9NVjTFGREbFoeX0GKw?embedVersion=1&amp;embedWidth=330&amp;embedHeight=191&amp;identity__email=vitor.rebello%40live.com" 
-            title="Badge: Desafio Pipeline e Monitoramento" 
-            style="width: 330px; height: 191px; border: 0px;">
-    </iframe>
-</div>
-<div class="certification-badge">
-    <iframe src="https://api.badgr.io/public/assertions/q1uOn9deTnKXSbNEcIAgJA?embedVersion=1&amp;embedWidth=330&amp;embedHeight=191&amp;identity__email=vitor.rebello%40live.com" 
-            title="Badge: Desafio Docker" 
-            style="width: 330px; height: 191px; border: 0px;">
-    </iframe>
-</div>
-<div class="certification-badge">
-    <iframe src="https://api.badgr.io/public/assertions/OBCvXvOkRUy6mn4NakLXsw?embedVersion=1&amp;embedWidth=330&amp;embedHeight=191&amp;identity__email=vitor.rebello%40live.com" 
-            title="Badge: Desafio Kubernetes e AWS" 
-            style="width: 330px; height: 191px; border: 0px;">
-    </iframe>
-</div>
-
+<section id="certificacao" class="content-section">
+    <h2>Certificações</h2>
+    <div class="certification-badges">
+        <div class="certification-badge">
+            <iframe src="https://api.badgr.io/public/assertions/q1uOn9deTnKXSbNEcIAgJA?embedVersion=1&amp;embedWidth=330&amp;embedHeight=191&amp;identity__email=vitor.rebello%40live.com" 
+                    title="Badge: Desafio Docker" 
+                    style="width: 330px; height: 191px; border: 0px;">
+            </iframe>
         </div>
-    </section>
+        <div class="certification-badge">
+            <iframe src="https://api.badgr.io/public/assertions/OBCvXvOkRUy6mn4NakLXsw?embedVersion=1&amp;embedWidth=330&amp;embedHeight=191&amp;identity__email=vitor.rebello%40live.com" 
+                    title="Badge: Desafio Kubernetes e AWS" 
+                    style="width: 330px; height: 191px; border: 0px;">
+            </iframe>
+        </div>
+        <div class="certification-badge">
+            <iframe src="https://api.badgr.io/public/assertions/pXrp9NVjTFGREbFoeX0GKw?embedVersion=1&amp;embedWidth=330&amp;embedHeight=191&amp;identity__email=vitor.rebello%40live.com" 
+                    title="Badge: Desafio Pipeline e Monitoramento" 
+                    style="width: 330px; height: 191px; border: 0px;">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+
 
     <section id="projetos" class="content-section">
         <h2>Projetos</h2>
-        <ul>
-            <li><strong>Projeto de Automação de Backup</strong> - Implementação de scripts para automação de backups diários e verificação de integridade dos backups no ambiente de produção.</li>
-            <li><strong>Projeto de Monitoramento em Tempo Real</strong> - Configuração de dashboards no Zabbix para monitoramento de performance e alertas proativos em servidores críticos.</li>
-            <li><strong>Projeto de Infraestrutura de Segurança</strong> - Criação de políticas de firewall e VPNs para garantir a segurança da comunicação entre filiais.</li>
-        </ul>
+
+        <div class="project-item">
+            <h3>Implantação Zabbix & Grafana</h3>
+            <p><strong>Associado(s) a:</strong> Unimed Araraquara</p>
+            <p>Iniciado há quatro anos, o projeto evoluiu para atender à demanda de monitoramento em tempo real de mais de 570 hosts, com alertas automáticos e dashboards personalizados.</p>
+            <ul>
+                <li><strong>Bancos de Dados:</strong> Oracle, Progress e SQL Server</li>
+                <li><strong>Servidores:</strong> Windows Server e Linux</li>
+                <li><strong>Equipamentos de Imagem:</strong> Ressonância magnética, tomografia, ultrassom</li>
+                <li><strong>Redes:</strong> Switches, APs, impressoras</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>Instrutor de Curso de Inclusão Digital – Programa Felix</h3>
+            <p>Projeto educacional em parceria com Unimed Araraquara e outras organizações, capacitando alunos em informática básica e reduzindo a exclusão digital.</p>
+        </div>
+
+        <div class="project-item">
+            <h3>Estruturação de Datacenter e Projetos de Virtualização</h3>
+            <p>Participação ativa na construção de datacenters e virtualização de servidores, utilizando VMware e vSphere para otimizar o gerenciamento de recursos.</p>
+        </div>
     </section>
 
-    <section id="contato" class="content-section">
-        <h2>Contato</h2>
-        <p>Para entrar em contato, envie um e-mail para: <a href="mailto:vitor.rebello@live.com">vitor.rebello@live.com</a></p>
-        <p>Ou conecte-se comigo nas redes sociais:</p>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/vitorrebello/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/vrebello" target="_blank">GitHub</a></li>
-        </ul>
-    </section>
+<section id="contato" class="content-section">
+    <h2>Contato</h2>
+    <p>Se você tiver interesse em entrar em contato, enviar uma mensagem ou baixar meu currículo, clique nos links abaixo:</p>
+    
+    <!-- Botão para baixar o currículo -->
+    <a href="https://raw.githubusercontent.com/ViitorRebello/my-portfolio/main/Curriculo/Curriculo%20Vitor_Rebello.pdf" 
+       style="display: inline-block; background-color: #0073b1; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; text-align: center; font-size: 16px;">
+       Baixar Currículo
+    </a>
 
-    <footer>
-        <p>&copy; 2024 Vitor Rebello</p>
-    </footer>
+    <!-- Botão para LinkedIn -->
+    <a href="https://www.linkedin.com/in/vitor-rebello" 
+       style="display: inline-block; background-color: #0073b1; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; text-align: center; font-size: 16px;" 
+       target="_blank">
+       LinkedIn
+    </a>
+</section>
+   
+
 </div>
+
+<footer>
+    <p>&copy; 2024 Vitor Rebello. Todos os direitos reservados.</p>
+</footer>
 
 </body>
 </html>
