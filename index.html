@@ -5,127 +5,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Vitor Rebello</title>
     <style>
-        /* Estilos gerais */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f7fb;
-            color: #333;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-        }
+       /* Estilos gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fb;
+    color: #333;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
 
-        /* Estilo para o menu */
-        nav {
-            background-color: #0073b1; /* Azul LinkedIn */
-            padding: 15px 0;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            text-align: center;
-            margin: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            padding: 10px 15px;
-            border-radius: 5px;
-        }
-        nav ul li a:hover {
-            background-color: #005b8c;
-        }
+/* Estilo para o menu */
+nav {
+    background-color: #0073b1; /* Azul LinkedIn */
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: font-size 0.3s ease; /* Transição suave para o aumento da fonte */
+}
+nav ul li a:hover {
+    background-color: #005b8c;
+    font-size: calc(1em + 1px); /* Aumenta a fonte em 1px */
+}
 
-        /* Estilos para o cabeçalho */
-        header {
-            text-align: center;
-            padding: 80px 0 20px 0;
-            background-color: #0073b1;
-            color: white;
-        }
-        header h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-        }
-        header p {
-            font-size: 1.5em;
-            margin-top: 0;
-        }
+/* Estilos para o cabeçalho */
+header {
+    text-align: center;
+    padding: 80px 0 20px 0;
+    background-color: #0073b1;
+    color: white;
+}
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.5em;
+    margin-top: 0;
+}
 
-        /* Estilos para as seções */
-        section {
-            margin-top: 60px;
-            margin-bottom: 40px;
-        }
+/* Estilos para as seções */
+section {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+.content-section {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+a {
+    color: #0073b1;
+    text-decoration: none;
+}
+a:hover {
+    color: #005b8c;
+}
 
-        h2 {
-            font-size: 2em;
-            margin-top: 20px;
-            color: #333;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 10px;
-        }
-        .content-section {
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        ul {
-            padding-left: 20px;
-            list-style-type: disc;
-        }
-        a {
-            color: #0073b1;
-            text-decoration: none;
-        }
-        a:hover {
-            color: #005b8c;
-        }
+/* Estilo para os itens de experiência e projeto */
+.experience-item, .project-item {
+    margin-bottom: 20px;
+}
 
-        /* Estilo para os itens de experiência e projeto */
-        .experience-item, .project-item {
-            margin-bottom: 20px;
-        }
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 
-        /* Estilo para o rodapé */
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
+/* Estilo para links de download */
+.download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073b1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.download-link:hover {
+    background-color: #005b8c;
+}
 
-        /* Estilo para links de download */
-        .download-link {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #0073b1;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
-            font-weight: bold;
-        }
-        .download-link:hover {
-            background-color: #005b8c;
-        }
     </style>
 </head>
 <body>
@@ -257,10 +259,22 @@
 
 <section id="contato" class="content-section">
     <h2>Contato</h2>
-    <p>Se você tiver interesse em entrar em contato, enviar uma mensagem ou baixar meu currículo, clique no link abaixo:</p>
-    <!-- Alterando o link para a URL bruta do GitHub -->
-    <a href="https://raw.githubusercontent.com/ViitorRebello/my-portfolio/main/Curriculo/Curriculo%20Vitor_Rebello.pdf" class="download-link" download>Baixar Currículo</a>
+    <p>Se você tiver interesse em entrar em contato, enviar uma mensagem ou baixar meu currículo, clique nos links abaixo:</p>
+    
+    <!-- Botão para baixar o currículo -->
+    <a href="https://raw.githubusercontent.com/ViitorRebello/my-portfolio/main/Curriculo/Curriculo%20Vitor_Rebello.pdf" 
+       style="display: inline-block; background-color: #0073b1; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; text-align: center; font-size: 16px;">
+       Baixar Currículo
+    </a>
+
+    <!-- Botão para LinkedIn -->
+    <a href="https://www.linkedin.com/in/vitor-rebello" 
+       style="display: inline-block; background-color: #0073b1; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; text-align: center; font-size: 16px;" 
+       target="_blank">
+       LinkedIn
+    </a>
 </section>
+   
 
 </div>
 
