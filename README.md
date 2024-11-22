@@ -36,5 +36,11 @@ Principais habilidades:
 
 ## Contato
 
-📫 Email: viitor.rebello@live.com 
-🔗 [LinkedIn](https://www.linkedin.com/in/vitor-rebello/)
+📫 Email: viitor.rebello@live.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/vitor-rebello/)  
+
+<div align="center">
+  <a href="mailto:viitor.rebello@live.com">
+    <img src="https://img.shields.io/badge/Contato-Enviar%20E--mail-blue?style=for-the-badge&logo=gmail&logoColor=white" alt="Botão de Contato">
+  </a>
+</div>
