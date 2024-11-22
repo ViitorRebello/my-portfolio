@@ -34,6 +34,8 @@ Dashboards personalizados no Grafana fornecem visibilidade centralizada de KPIs 
 - Administração de servidores  
 - Gerenciamento de redes  
 
+---
+
 #### **Instrutor de Curso de Inclusão Digital – Programa Felix**  
 - **Período:** Fev/2016 – Out/2018  
 - **Empresa:** Unimed Araraquara  
@@ -47,6 +49,8 @@ Contribuí para a redução da exclusão digital, promovendo a empregabilidade e
 - Gestão de Projetos  
 - Docência  
 - Comunicação Interpessoal  
+
+---
 
 #### **Migração Tasy Delphi para Tasy Java e HTML5**  
 - **Empresa:** Unimed Araraquara  
@@ -119,6 +123,8 @@ Atuei na migração do sistema Tasy Delphi para Java e, atualmente, para HTML5, 
 - **Linguagens e Scripts:** Python, Shell Script, Windows PowerShell.  
 - **Gerenciamento:** ITSM, KPIs, Kanban, Scrum, Planejamento de Projetos.  
 
+---
+
 ### **Formação Acadêmica**  
 #### **Faculdades Integradas de Araraquara (Faculdades Logatti)**  
 **Bacharelado em Sistemas de Informação**  
@@ -160,6 +166,8 @@ Atuei na migração do sistema Tasy Delphi para Java e, atualmente, para HTML5, 
 - **Administração de Servidores (Windows e Linux)**  
 - **Comunicação Interpessoal**  
 - **Gerenciamento de Redes e Segurança**
+
+---
 
 ### **Licenças e Certificados**
 #### **Formação DevOps Pro**  
