@@ -1,5 +1,5 @@
 👋 **Olá! Sou Vitor Rebello**  
-💻 **Especialista em Infraestrutura** com mais de 10 anos de experiência em SRE, observabilidade e virtualização.
+💻 **Especialista em Infraestrutura** com mais de 12 anos de experiência.
 
 ### Sobre  
 - **SRE & Observabilidade**: Monitoramento avançado com Zabbix e Grafana, criando dashboards personalizados para análise de KPIs e disponibilidade de serviços.  
