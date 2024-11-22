@@ -39,11 +39,12 @@ Principais habilidades:
 <div align="center">
   <!-- Botão de E-mail -->
   <a href="mailto:viitor.rebello@live.com">
-    <img src="https://img.shields.io/badge/Enviar%20E--mail-blue?style=for-the-badge&logo=gmail&logoColor=white" alt="Botão de E-mail">
+    <img src="https://img.shields.io/badge/Enviar%20E--mail-0077b5?style=for-the-badge&logo=gmail&logoColor=white&borderRadius=20" alt="Botão de E-mail">
   </a>
   
   <!-- Botão de LinkedIn -->
   <a href="https://www.linkedin.com/in/vitor-rebello/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect%20now-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="Botão de LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect%20now-0077b5?style=for-the-badge&logo=linkedin&logoColor=white&borderRadius=20" alt="Botão de LinkedIn">
   </a>
 </div>
+
