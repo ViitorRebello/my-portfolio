@@ -34,7 +34,6 @@ Dashboards personalizados no Grafana fornecem visibilidade centralizada de KPIs 
 - Administração de servidores  
 - Gerenciamento de redes  
 
----
 
 #### **Instrutor de Curso de Inclusão Digital – Programa Felix**  
 - **Período:** Fev/2016 – Out/2018  
@@ -50,7 +49,6 @@ Contribuí para a redução da exclusão digital, promovendo a empregabilidade e
 - Docência  
 - Comunicação Interpessoal  
 
----
 
 #### **Migração Tasy Delphi para Tasy Java e HTML5**  
 - **Empresa:** Unimed Araraquara  
@@ -85,7 +83,6 @@ Atuei na migração do sistema Tasy Delphi para Java e, atualmente, para HTML5, 
 - Experiência com **Veeam Backup & Replication**, garantindo backup e recuperação eficiente.  
 - Gerenciamento de **DNS, DHCP**, incluindo criação de zonas e registros.  
 
----
 
 ### **Analista de Infraestrutura Sênior**  
 **Unimed Araraquara**  
@@ -99,7 +96,6 @@ Atuei na migração do sistema Tasy Delphi para Java e, atualmente, para HTML5, 
 - Gerenciamento de backups para **Oracle, SQL Server e Progress** com foco em integridade e recuperação.  
 - Liderança na implementação de novas tecnologias e atualização de ambientes de TI.  
 
----
 
 ### **Analista de Infraestrutura Pleno**  
 **Unimed Araraquara**  
@@ -113,7 +109,6 @@ Atuei na migração do sistema Tasy Delphi para Java e, atualmente, para HTML5, 
 - Experiência com **Veeam Backup** para proteção de dados em ambientes virtualizados.  
 - Gerenciamento de **GPOs** para controle de políticas de segurança e permissões.  
 
----
 
 ### **Competências Técnicas Comuns**  
 - **Infraestrutura:** Redes LAN/WAN, VPN, Fortigate, VMware vSphere, Hyper-V, Veeam Backup, DHCP, DNS.  
@@ -147,7 +142,6 @@ Atuei na migração do sistema Tasy Delphi para Java e, atualmente, para HTML5, 
 - **Administração de Servidores e Redes**  
 - **Linguagens de Programação (C#, CSS, HTML5)**  
 
----
 
 #### **Senac São Paulo**  
 **Curso Técnico Integrado em Tecnologia da Informação**  
@@ -183,7 +177,6 @@ Atuei na migração do sistema Tasy Delphi para Java e, atualmente, para HTML5, 
      - Prometheus.io  
      - DevOps  
 
----
 
 2. **Desafio Docker**  
    - **Emitido em:** Nov/2024  
@@ -195,7 +188,6 @@ Atuei na migração do sistema Tasy Delphi para Java e, atualmente, para HTML5, 
      - DevOps  
      - Servidor Linux  
 
----
 
 3. **Desafio Kubernetes e AWS**  
    - **Emitido em:** Nov/2024  
@@ -204,7 +196,6 @@ Atuei na migração do sistema Tasy Delphi para Java e, atualmente, para HTML5, 
      - Kubernetes  
      - AWS CloudFormation  
 
----
 
 4. **Desafio Pipeline e Monitoramento**  
    - **Emitido em:** Nov/2024  
@@ -213,7 +204,6 @@ Atuei na migração do sistema Tasy Delphi para Java e, atualmente, para HTML5, 
      - Integração e entrega contínuas (CI/CD)  
      - GitHub  
 
----
 
 #### **Center Cursos | Pessoas e Tecnologia**  
 1. **ITIL4® - Fundamentos de Gerenciamento de Serviços de TI**  
@@ -226,7 +216,6 @@ Atuei na migração do sistema Tasy Delphi para Java e, atualmente, para HTML5, 
      - VMware vSphere  
      - Servidor Linux  
 
----
 
 #### **StartSe University**  
 **Capacitação em Inteligência Artificial | COLABORADORES**  
