@@ -9,6 +9,8 @@
 - **DBA & ERPs**: Expertise em Oracle, Progress e SQL Server, otimizando performance; gestão de ERPs como Tasy Philips (AppManager Docker) e Totvs Datasul.  
 - **ITSM**: Melhoria contínua na gestão de serviços e processos de TI.  
 
+---
+
 ### **Projetos**
 #### **Implantação Zabbix & Grafana**  
 - **Período:** Jun/2020 – Atual  
@@ -32,8 +34,6 @@ Dashboards personalizados no Grafana fornecem visibilidade centralizada de KPIs 
 - Administração de servidores  
 - Gerenciamento de redes  
 
----
-
 #### **Instrutor de Curso de Inclusão Digital – Programa Felix**  
 - **Período:** Fev/2016 – Out/2018  
 - **Empresa:** Unimed Araraquara  
@@ -47,8 +47,6 @@ Contribuí para a redução da exclusão digital, promovendo a empregabilidade e
 - Gestão de Projetos  
 - Docência  
 - Comunicação Interpessoal  
-
----
 
 #### **Migração Tasy Delphi para Tasy Java e HTML5**  
 - **Empresa:** Unimed Araraquara  
@@ -64,6 +62,8 @@ Atuei na migração do sistema Tasy Delphi para Java e, atualmente, para HTML5, 
 - Docker  
 - Apache Tomcat  
 - Gestão de TI em saúde (HIT)
+
+---
 
 ### Experiências Profissionais
 ### **Especialista em Infraestrutura**  
