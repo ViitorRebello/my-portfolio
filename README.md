@@ -36,5 +36,12 @@ Principais habilidades:
 
 ## Contato
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vitor%20Rebello-blue?logo=linkedin)](https://www.linkedin.com/in/vitor-rebello/)  
-[![Email](https://img.shields.io/badge/Email-viitor.rebello%40live.com-red?logo=gmail)](mailto:viitor.rebello@live.com)
+<p dir="auto">
+  <a href="https://www.linkedin.com/in/vitor-rebello/" rel="nofollow">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" style="max-width: 100%;">
+  </a>
+  <a href="mailto:viitor.rebello@live.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" style="max-width: 100%;">
+  </a>
+</p>
+
